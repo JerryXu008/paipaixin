@@ -1,0 +1,6 @@
+framework module PPCSDK {
+  umbrella header "PPCSDK.h"
+
+  export *
+  module * { export * }
+}
