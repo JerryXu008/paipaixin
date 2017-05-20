@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "Source", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/JerryXu008/paipaixin.git", :tag => "0.0.2" }
 
 
   s.platform     = :ios, '8.0'
@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
   s.resource     = 'Source/PPCSDK.bundle'
   s.libraries    = 'sqlite3','z.1.2.5'
   s.vendored_frameworks = ['Source/PPCSDK.framework']
-  #s.dependency 'hbuilder'
-  s.dependency 'MJRefresh', '~> 3.1.0'
+  s.dependency 'hbuilder'
+#s.dependency 'MJRefresh', '~> 3.1.0'
 end

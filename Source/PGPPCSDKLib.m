@@ -8,12 +8,10 @@
 #import "PGPPCSDKLib.h"
 #import <Foundation/Foundation.h>
 
-#import "PGPlugin.h"
-#import "PGMethod.h"
-
+ 
 
 #import <PPCSDK/PPCreditSDK.h>
-#import "testAAA.h"
+
 @implementation PGPPCSDKLib
 
 
@@ -25,8 +23,7 @@
  */
 - (void)getPPCDeviceId:(PGMethod *)commonds{
     [[PPCreditSDK sharePPCSDK] initWithAppKey:@"fsf" appSecret:@"fsdfs"];
-    testAAA *aaa=[testAAA new];
-    [aaa printA];
+    
     
     PDRPluginResult *result;
     
