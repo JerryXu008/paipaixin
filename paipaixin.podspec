@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "paipaixin"
-s.version      = "0.0.3"
+s.version      = "0.0.5"
 s.summary      = "A short description of PPX."
 
 
@@ -21,12 +21,12 @@ s.author             = { "Bruce008" => "" }
 
 
 
-s.source       = { :git => "https://github.com/JerryXu008/paipaixin.git", :tag => "0.0.3" }
+s.source       = { :git => "https://github.com/JerryXu008/paipaixin.git", :tag => "0.0.5" }
 
 
 s.platform     = :ios, '8.0'
 
-s.source_files  = "Source", "Source/PGPPCSDKLib.{h,m}","Source/inc/core/*.{h,m}","Source/inc/Feature/*.{h,m}","Source/inc/tools/*.{h,m}"
+s.source_files  =  "Source/PGPPCSDKLib.{h,m}","Source/inc/core/*.{h,m}","Source/inc/Feature/*.{h,m}","Source/inc/tools/*.{h,m}"
 
 
 #s.vendored_libraries = ['Source/paipaixin/libPGPPCSDKLib.a']
