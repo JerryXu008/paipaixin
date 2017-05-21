@@ -37,4 +37,13 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = ['Source/PPCSDK.framework']
   s.dependency 'hbuilder'
 #s.dependency 'MJRefresh', '~> 3.1.0'
+
+
+
+s.subspec 'DataModel' do |dataModel|
+dataModel.source_files = 'Source/*'
+dataModel.public_header_files = 'Source/*.h'
+end
+
+
 end
