@@ -1,9 +1,11 @@
 
+
+  
 Pod::Spec.new do |s|
 
 
   s.name         = "paipaixin"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of PPX."
 
 
@@ -19,7 +21,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/JerryXu008/paipaixin.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/JerryXu008/paipaixin.git", :tag => "1.0.0" }
 
 
   s.platform     = :ios, '8.0'
@@ -41,8 +43,8 @@ Pod::Spec.new do |s|
 
 
 s.subspec 'DataModel' do |dataModel|
-dataModel.source_files = 'Source/*'
-dataModel.public_header_files = 'Source/*.h'
+dataModel.source_files = 'Source/PModel.*{h,m}'
+dataModel.public_header_files = 'Source/PModel.*{h}'
 end
 
 
